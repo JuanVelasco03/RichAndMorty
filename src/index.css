@@ -30,6 +30,44 @@ text-align: left;
   grid-template-columns: 50% 50%;
 }
 
+.search{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text{
+  padding: 5px;
+  font-size: 15px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #cdcdcd;
+  color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+
+.search p{
+  color: #9fa0a2;
+}
+
+.buscar{
+  height: 32px;
+  margin-left: 7px;
+  background-color: #9fa0a2;
+  border: #000000;
+  border-radius: 5px;
+}
+
+.buscar:hover{
+  background-color: #CCCCCC;
+}
+
+
+
+
 .card{
   width: 600px;
   height: 240px;
